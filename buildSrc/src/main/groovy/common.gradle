@@ -1,4 +1,4 @@
-plugins {
+plugins*{
     id "java-library"
     id "maven-publish"
     id "signing"
@@ -40,3 +40,4 @@ jacocoTestReport {
         xml.required = true
     }
 }
+ 
